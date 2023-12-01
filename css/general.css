@@ -1,109 +1,161 @@
-/*Hoja de estilos del documento*/
-body{
-    background-color:#E9F5E3;
-    font-family:"Cousine";
+/* Hoja de estilos del documento */
+
+/* Estilos para el body */
+body {
+    background-color: #E9F5E3;
+    font-family: "Cousine";
     font-size: 120%;
-    color:#6d2a00; 
+    color: #6d2a00;
+    margin: 0px;
 }
 
-header{
+/* Estilos para la cabecera */
+header {
     background-color: #78ae62;
-    font-size:1.5rem;
-    
+    font-size: 1.5rem;
 }
 
-h1{
+/* Estilos para el título principal */
+h1 {
     font-size: 4rem;
     font-family: "Dancing Script";
     text-align: center;
+    margin: 0px;
 }
 
-ul{
+/* Estilos para la lista de navegación */
+ul {
     display: flex;
     justify-content: space-around;
     list-style: none;
 }
-footer{
+
+/* Estilos para el formulario */
+form {
+    position: relative;
+    width: 50%;
+}
+
+/* Estilos para el pie de página */
+footer {
     background-color: #78ae62;
     text-align: center;
     padding: 5px;
 }
 
-li{ 
+/* Estilos para elementos de la lista de navegación */
+li {
     background-color: #6d2a00;
     padding: 10px;
     border-radius: 25px;
 }
 
-h3{
-    font: size 3rem;
+/* Estilos para subtítulos */
+h3 {
+    font-size: 3rem;
 }
 
-h2{
+/* Estilos para títulos de secciones */
+h2 {
     padding: 20px;
 }
 
-form{
+/* Estilos específicos para el formulario */
+form {
     display: flex;
     flex-direction: column;
 }
 
-.imagenIndex{
-    width:15%;
+/* Estilos para imágenes en la página de inicio */
+.imagenIndex {
+    width: 15%;
+    padding: 20px;
     float: left;
 }
-.columna{
-    display:flex;
+
+/* Estilos para alinear elementos horizontalmente */
+.row {
+    display: flex;
     flex-direction: row;
-
+    margin: 20px;
 }
 
-.redes{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.centro{
-    width: 15%;
-    display: flex;
-    flex-direction: column ;
-    justify-content: center;
-    align-items: center;
-    margin:25px;
-    border-style: solid;
-    border:2px#78ae62;
-    
-}
-
-.bloque{
+/* Estilos para alinear elementos verticalmente */
+.column {
     display: flex;
     flex-direction: column;
 }
 
-.imagenAve{
+/* Estilos para el bloque de redes sociales */
+.redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Estilos para centrar elementos */
+.centro {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+
+/* Estilos para enlaces sin decoración */
+.decoracion {
+    text-decoration: none;
+    color: #6d2a00;
+    font-family: "Cousine";
+}
+
+/* Estilos para bloques de contenido */
+.bloque {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos para imágenes de aves */
+.imagenAve {
     width: 15%;
 }
 
-.linea{
-    display:flex;
+/* Estilos para alinear elementos horizontalmente con espacio entre ellos */
+.linea {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 2%;
 }
 
-.colorNav{
-    color:#78ae62;
+/* Estilos para cambiar el color del texto de navegación */
+.colorNav {
+    color: #78ae62;
 }
 
-.petirrojo{
+/* Estilos para la imagen del petirrojo */
+.petirrojo {
     width: 25%;
     float: left;
+    padding: 20px;
 }
 
-#anchoAside{
+/* Estilos para agregar margen */
+.borde {
+    margin: 10px;
+}
+
+/* Estilos para elementos con ancho específico */
+#anchoAside {
     width: 200px;
 }
 
+#ancho {
+    width: 50%;
+}
 
+/* Estilos para el campo de mensaje del formulario */
+#mensaje {
+    height: 50px;
+}
